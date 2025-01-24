@@ -31,8 +31,6 @@ public class Reusablitylibrary {
 	}
 
 	public void browsersetup() {
-//		driver = new ChromeDriver();
-//		driver.manage().window().maximize();
 	}
 
 	public void close_browser() {
