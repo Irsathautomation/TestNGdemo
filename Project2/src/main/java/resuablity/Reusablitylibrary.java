@@ -31,7 +31,6 @@ public class Reusablitylibrary {
 	}
 
 	public void browsersetup() {
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\Driver\\chromedriver.exe");
 //		driver = new ChromeDriver();
 //		driver.manage().window().maximize();
 	}
