@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
   <test name="Test">
-  <parameter name="Defaultfirstname" value="Irsath">
+  <parameter name="firstname" value="Irsath" />
   <parameter name="user" value="standard_user" />
   <parameter name="password" value="secret_sauce" />
-  <parameter name="firstname" value="Irsath" />
   <parameter name="lastname" value="ahamed" />
     <classes>
       <class name="Selenium.Project2.TestNGclass"/>
