@@ -33,7 +33,7 @@ public class TestNGclass {
 		driver.findElement(By.xpath("//input[starts-with(@id,'pass')]")).sendKeys(password);
 		driver.findElement(By.xpath("//input[starts-with(@id,'login')]")).click();
 	}
-	@Test @Parameters({"firstname","lastname"})
+	@Parameters({"firstname", "lastname"}) @Test 
 	public void firsttest(String firstname,String lastname) {
 		driver.findElement(By.xpath("//*[contains(text(),'Sauce Labs Backpack')]//ancestor::div[@class='inventory_item_label']/following-sibling::div//button")).click();
 		driver.findElement(By.xpath("//*[contains(text(),'Sauce Labs Bike Light')]//ancestor::div[@class='inventory_item_label']/following-sibling::div//button")).click();
