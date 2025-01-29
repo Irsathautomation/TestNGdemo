@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 public class TestNGclass {
 	public static WebDriver driver;
 	String url ="https://saucedemo.com/v1/index.html";
-	String driverpath=Paths.get("<====Driver Path====>").toString();
+	String driverpath=Paths.get("C:\\Users\\Administrator\\Desktop\\driver(1)\\chromedriver.exe").toString();
 	@BeforeTest
 	public void beforeTest() {
 		System.setProperty("webdriver.chrome.driver", driverpath);
