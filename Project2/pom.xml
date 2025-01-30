@@ -82,6 +82,8 @@
 					<version>2.22.1</version>
 					<configuration>
 						<suiteXmlFiles>
+							<suiteXmlFile>src/test/java/testsuite1.xml
+							</suiteXmlFile>
 							<suiteXmlFile>src/test/java/testsuite2.xml
 							</suiteXmlFile>
 						</suiteXmlFiles>
