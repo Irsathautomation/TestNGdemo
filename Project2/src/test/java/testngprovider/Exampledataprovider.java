@@ -4,7 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -39,8 +39,8 @@ public class Exampledataprovider {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\Driver\\msedgedriver.exe");
-		driver = new EdgeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\driver(1)\\chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(Url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
